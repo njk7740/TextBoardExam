@@ -55,6 +55,7 @@ public class PostIO {
         System.out.println("게시물 번호 : " + post.getNumber());
         System.out.println("제목 : " + post.getTitle());
         System.out.println("내용 : " + post.getContent());
+        System.out.println("작성일자 : " + post.getDate());
         System.out.println("====================");
     }
 

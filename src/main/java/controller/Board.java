@@ -5,6 +5,7 @@ import view.BoardIO;
 public class Board {
 
     PostController postController = new PostController();
+    UserController userController = new UserController();
     BoardIO boardIO = new BoardIO();
     public void run() {
 
@@ -17,6 +18,7 @@ public class Board {
             else if (func.equals("update")) postController.update();
             else if (func.equals("delete")) postController.delete();
             else if (func.equals("detail")) postController.detail();
+            else if (func.equals("signup")) userController.signup();
 
         }
 
